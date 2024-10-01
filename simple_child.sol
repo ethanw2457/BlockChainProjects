@@ -15,6 +15,10 @@ contract DeployingExample {
         owner = msg.sender;
         receiver = receiverio;
     }
+    modifier _onlyOwner() {
+        _; // means all the funciton code will run before the require statement before the funciton ends but you could also put it behind the require statement so that the requirement statement runs before the code instead
+        require(msg.sender == owner, "Wrong Address");
+    }
     function deploySimpleStorage() public {
         S = new SimpleStorage();
     }
@@ -24,7 +28,7 @@ contract DeployingExample {
     }
     function SimpleStorageData() public returns(uint256) {
         require(msg.sender == owner, "Wrong Address");
-        createApple(1);
+        // createApple(1);
         return 1;
     }
 }

@@ -6,6 +6,17 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "receiverio",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
 				"inputs": [],
 				"name": "S",
 				"outputs": [
@@ -16,6 +27,19 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "SimpleStorageData",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
@@ -67,11 +91,11 @@
 	},
 	"sources": {
 		"simple_child.sol": {
-			"keccak256": "0x71b63e972ed0aa8e12988c8deda14f2bb2ad01e4a220172ae8b1a737e094372f",
+			"keccak256": "0x2df3d8b7ddae544cbf9dbc4021c3016febeed25427bd1db401d6775d74b840c8",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://456b5a43043f021a5213c2ba6ed9b0a4b69a071f2a0148894700655912e33ad8",
-				"dweb:/ipfs/QmTVNJdygDehxoZbpoQ3JyuBcaxneGV2YX8JUMgD34bwBM"
+				"bzz-raw://eb43bd0c3c31a24ac0194696cab62c86f5af5e57b51ced99b59d5d84a2aee17d",
+				"dweb:/ipfs/QmcafmAfP2kHBxhvbyuoNhnH1ku9uaLfrhq1vc32jFBeJ7"
 			]
 		},
 		"simple_parent.sol": {
