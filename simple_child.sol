@@ -19,15 +19,15 @@ contract DeployingExample {
         _; // means all the funciton code will run before the require statement before the funciton ends but you could also put it behind the require statement so that the requirement statement runs before the code instead
         require(msg.sender == owner, "Wrong Address");
     }
-    function deploySimpleStorage() public {
+    function deploySimpleStorage() public _onlyOwner {
         S = new SimpleStorage();
     }
-    function readSimpleStorageData() public returns(uint256) {
+    function readSimpleStorageData() public _onlyOwner returns(uint256) {
         // createApple(1);
         return 1;
     }
-    function SimpleStorageData() public returns(uint256) {
-        require(msg.sender == owner, "Wrong Address");
+    function SimpleStorageData() public _onlyOwner returns(uint256) {
+        
         // createApple(1);
         return 1;
     }
