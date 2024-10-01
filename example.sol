@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT
 pragma solidity ^0.8.26; // states the version of the file, the '^' means any future version
 // no null values in solidity, only default values
 // int default value is = 0
