@@ -1,0 +1,87 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "S",
+				"outputs": [
+					{
+						"internalType": "contract SimpleStorage",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "deploySimpleStorage",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "readSimpleStorageData",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"simple_child.sol": "DeployingExample"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"simple_child.sol": {
+			"keccak256": "0x71b63e972ed0aa8e12988c8deda14f2bb2ad01e4a220172ae8b1a737e094372f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://456b5a43043f021a5213c2ba6ed9b0a4b69a071f2a0148894700655912e33ad8",
+				"dweb:/ipfs/QmTVNJdygDehxoZbpoQ3JyuBcaxneGV2YX8JUMgD34bwBM"
+			]
+		},
+		"simple_parent.sol": {
+			"keccak256": "0x60ba4e987efa2975bb95ffe772e148890014c86304870331f91dcf4dd167e047",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e3cfcb754580a47a72d893bb09c58ab92eec2c85e65f6ad3bf5c481e151f1c39",
+				"dweb:/ipfs/QmdGmfsCHJ8oDLYGcNuyePdMzmkVE9ZY7tvRQDm3UTHsVA"
+			]
+		}
+	},
+	"version": 1
+}

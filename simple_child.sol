@@ -9,11 +9,11 @@ contract DeployingExample {
         address owner;
     }
     SimpleStorage public S;
-    funciton deploySimpleStorage() public {
+    function deploySimpleStorage() public {
         S = new SimpleStorage();
     }
     function readSimpleStorageData() public returns(uint256) {
-        createApple(1);
+        // createApple(1);
         return S.G();
     }
 }
