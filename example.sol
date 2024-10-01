@@ -47,6 +47,8 @@ contract example { // Usually name the contract the same as the file name
     // Access: uint256 myBalance = balances[msg.sender];
     // Updating Values: balances[msg.sender] += 500;
     // Delete: delete balances[msg.sender]
+    // msg.sender is the sender of the account or contract that calls the function
+    // msg.value is the transaction value when calling a function (usually 0)
 
 
 
