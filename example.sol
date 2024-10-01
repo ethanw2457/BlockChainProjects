@@ -33,7 +33,7 @@ contract example { // Usually name the contract the same as the file name
 
     function changeNum(uint256 a) public {
         num1 = a;
-        require(a > 18); // if the require statement fails it will reverse the entire transaction
+        require(a > 18); // if the require statement fails it will reverse the entire transaction (return all of the variables to the original state)
     }
 
     function getNum() view public returns (uint256) { // returns the type which is in the parenthesis
