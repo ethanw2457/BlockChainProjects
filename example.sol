@@ -49,7 +49,7 @@ contract example { // Usually name the contract the same as the file name
     // Delete: delete balances[msg.sender]
     // msg.sender is the sender of the account or contract that calls the function
     // msg.value is the transaction value when calling a function (usually 0)
-    // tx.origin is the address of the ORIGINAL transaction sender (different form msg.sender)
+    // tx.origin is the address of the ORIGINAL transaction sender (different form msg.sender) basic rule of thumb is to not use it because it can result in scams
 
 
 
