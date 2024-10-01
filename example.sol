@@ -40,9 +40,13 @@ contract example { // Usually name the contract the same as the file name
         return num1;
     }
 
-    // function add(uint x, uint y) pure {
+    // function add(uint x, uint y) pure { ... }
 
-    // }
+    // mapping(address => uint256) public balances;
+    // Initialization: balances[msg.sender] = 1000;
+    // Access: uint256 myBalance = balances[msg.sender];
+    // Updating Values: balances[msg.sender] += 500;
+    // Delete: delete balances[msg.sender]
 
 
 
