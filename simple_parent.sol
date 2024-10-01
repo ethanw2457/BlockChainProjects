@@ -17,5 +17,13 @@ contract SimpleStorage {
     function edit(uint256 id, uint256 data) public onlyValid(id, data) {
         require(msg.sender == apples[id].owner);
         apples[id].data = data;
+          require(data%2 ==0); //data should be even
+    }
+    function createApple(uint256 id) public { 
+        Apple memory apple = Apple(id, 1234, msg.sender);
+        apples[id] = apple;
+    }
+    function hellosir() public {
+        G = 5;
     }
 }

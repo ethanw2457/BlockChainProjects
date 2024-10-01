@@ -24,6 +24,19 @@
 						"internalType": "uint256",
 						"name": "id",
 						"type": "uint256"
+					}
+				],
+				"name": "createApple",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "id",
+						"type": "uint256"
 					},
 					{
 						"internalType": "uint256",
@@ -32,6 +45,13 @@
 					}
 				],
 				"name": "edit",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "hellosir",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -65,11 +85,11 @@
 	},
 	"sources": {
 		"simple_parent.sol": {
-			"keccak256": "0x60ba4e987efa2975bb95ffe772e148890014c86304870331f91dcf4dd167e047",
+			"keccak256": "0x580f34ee24fdbb2296a82c1402c777d73b323bcb6164e5865fe1d278c73f8dd9",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://e3cfcb754580a47a72d893bb09c58ab92eec2c85e65f6ad3bf5c481e151f1c39",
-				"dweb:/ipfs/QmdGmfsCHJ8oDLYGcNuyePdMzmkVE9ZY7tvRQDm3UTHsVA"
+				"bzz-raw://098d7353b47931ea2923a0c13255e49b8ca1b4ccb67ca42d8a4fea49f0b4a0ab",
+				"dweb:/ipfs/QmbdNCnncKHWkvkJSzNKT7NnPDq7xDuZzJA5siMdudqEQL"
 			]
 		}
 	},
