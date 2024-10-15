@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "lastUser",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setLastUser",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"msgSender.sol": "msgSender"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"msgSender.sol": {
+			"keccak256": "0x95fa62c0714e0794fc0c6c14d138de7e96f7bfd32612b29e4d8c5b23247331af",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://202adf7f34e0df4828289224e334c8dcb4504c59529e96adc1eeb58966114b1e",
+				"dweb:/ipfs/QmcUcvYz8qsuvLSdPnAZDEDXin44vH2Ed1SFA6P5Ti2kDo"
+			]
+		}
+	},
+	"version": 1
+}
