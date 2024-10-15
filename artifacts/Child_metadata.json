@@ -104,10 +104,11 @@
 	},
 	"sources": {
 		"Child.sol": {
-			"keccak256": "0xfc54f3b81a240d32d78c3f6c8d942c2676461be59a4bf7290591325f1fb42545",
+			"keccak256": "0xba0818b15c09bf3a620bc7a1bfb752a7446c6a81424a4ae7c6052f7ad6ed8d58",
+			"license": "MIT",
 			"urls": [
-				"bzz-raw://31541aaf4a6f26a315f5851a40345fa51e0c585528944d6398b33c953f8eeeab",
-				"dweb:/ipfs/QmQJMpN78q38LuNhs3pbf3NdExJCz7YHFzmbo5sp1ZL5Ci"
+				"bzz-raw://8698fbd9b623e158d10c61eb288a5764eb8602493047d117fe62b86a313acaed",
+				"dweb:/ipfs/QmbQA4F7YAYD4yidDbeRdQH2pXDaih5t8rwdx7KHgvKGS2"
 			]
 		},
 		"Parent.sol": {
