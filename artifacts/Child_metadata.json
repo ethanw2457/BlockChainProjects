@@ -1,0 +1,123 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"name": "changeName",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "int256",
+						"name": "num",
+						"type": "int256"
+					}
+				],
+				"name": "changeNameAndNum",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "_num",
+						"type": "int256"
+					}
+				],
+				"name": "changeNum",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "name",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "num",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Child.sol": "Child"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Child.sol": {
+			"keccak256": "0xfc54f3b81a240d32d78c3f6c8d942c2676461be59a4bf7290591325f1fb42545",
+			"urls": [
+				"bzz-raw://31541aaf4a6f26a315f5851a40345fa51e0c585528944d6398b33c953f8eeeab",
+				"dweb:/ipfs/QmQJMpN78q38LuNhs3pbf3NdExJCz7YHFzmbo5sp1ZL5Ci"
+			]
+		},
+		"Parent.sol": {
+			"keccak256": "0x20c99692d2500108521aee89da963523cd38ad911620a516d1fd235d64a997d0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://82050ba639fefb4dfcdee7007ada85831a2d6f96c4f56181bd641050a15f5995",
+				"dweb:/ipfs/QmXVzodppSpN1CyMwz85me6gxGyQTZzjJ3M36kRc97bFrg"
+			]
+		}
+	},
+	"version": 1
+}
