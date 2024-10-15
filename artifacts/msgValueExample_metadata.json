@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "payForReturn",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "requirePaymentForNum",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"msgValue.sol": "msgValueExample"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"msgValue.sol": {
+			"keccak256": "0xd7c994b41627788719c66b1b77b5ef324a7d3b54bba4daf52722f5127c1e9a4b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://bd22d47738e43852c93adc9ae7e873f025d778b32dbacdb470d80a6d7c1fa554",
+				"dweb:/ipfs/Qma9sEktqjjPsZeNWNxrfdaGJbMMb19i63EMbK3TmK7tYt"
+			]
+		}
+	},
+	"version": 1
+}
