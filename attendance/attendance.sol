@@ -6,8 +6,10 @@ contract Attendance {
 
     mapping(address => string) addressToName;
 
-    function markAttendance(string name) public {
-        msg.sender;
+    function markAttendance(string memory name) public {
+        // msg.sender
+        interacted.push(msg.sender);
+        addressToName[msg.sender] = name;
     }
 
 }
