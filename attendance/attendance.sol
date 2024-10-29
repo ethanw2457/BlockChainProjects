@@ -12,7 +12,7 @@ contract Attendance {
         addressToName[msg.sender] = name;
     }
 
-    function getInteracted() view public returns (address) {
+    function getInteracted() view public returns (address[] memory) {
         return interacted;
     }
 
